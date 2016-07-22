@@ -13,7 +13,7 @@ Ext.define('SubscriberPortal.view.prizeslist.PrizeList', {
         region: 'center',
         xtype: 'panel', // TabPanel itself has no title
         items: {
-            title: 'Default Tab',
+            title: 'Subscriber Portal',
             items: {
                 xtype: 'gridpanel',
                 store: Ext.create('SubscriberPortal.store.PrizeStoreStore', {
@@ -25,14 +25,15 @@ Ext.define('SubscriberPortal.view.prizeslist.PrizeList', {
                     dataIndex: 'ID'
                 }, {
                     text: 'Store',
+                    flex:1,
                     dataIndex: 'Tienda'
                 }, {
                     text: 'Prizes',
-                    width: 450,
+                    flex:1,
                     dataIndex: 'Premios'
                 }, {
                     xtype: 'actioncolumn',
-                    width: 150,
+                    
                     text: 'Acciones',
                     items: [{
                         icon: 'assets/images/add.png',
@@ -40,7 +41,12 @@ Ext.define('SubscriberPortal.view.prizeslist.PrizeList', {
                         handler: 'onSubscribe'
                     }]
                 }],
-                width: 1000
+                dockedItems: [{
+                    xtype: 'pagingtoolbar',
+                    store: Ext.getStore('prizeStore'),
+                    dock: 'bottom',
+                    displayInfo: true
+                }],
             }
         }
     }],

@@ -4,7 +4,7 @@ Ext.define('SubscriberPortal.store.PrizeStoreStore', {
     pageSize: 999,
     proxy: {
         extraParams: {
-            nombre: ''
+            prizesName: ''
         },
         type: 'ajax',
         actionMethods: { read: 'POST' },
