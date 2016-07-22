@@ -123,37 +123,7 @@
 	border-style: solid;
 	background-color: #519fe0;
 }
-.edit2 {
-	display: block;
-    color: transparent;
-    text-decoration: none;
-    height: 70px;
-    line-height: 70px;
-    padding-right: 50px;
-    background-repeat: no-repeat;
-    background-position: 20px 6px;
-    background-size: 55%;
-    font-size: 0px;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
-.edit2:hover{
-display: block;
-    color: transparent;
-    text-decoration: none;
-    height: 70px;
-    line-height: 70px;
-    padding-right: 50px;
-    background-repeat: no-repeat;
-    background-position: 20px 6px;
-    background-size: 55%;
-    font-size: 0px;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-	-webkit-filter: drop-shadow(0px 2px 2px gray);
-	}
+
 .selected-item-menu .edit2 {
 	display: block;
     color: transparent;
@@ -199,64 +169,6 @@ display: block;
 	font-weight: 600;
     font-size: 110%;
 }
-.print {
-display: block;
-    color: transparent;
-    text-decoration: none;
-    height: 70px;
-    line-height: 70px;
-    padding-right: 50px;
-    background-repeat: no-repeat;
-    background-position: 20px 6px;
-    background-size: 55%;
-    font-size: 0px;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-	}
-	
-.print:hover{
-display: block;
-    color: transparent;
-    text-decoration: none;
-    height: 70px;
-    line-height: 70px;
-    padding-right: 50px;
-    background-repeat: no-repeat;
-    background-position: 20px 6px;
-    background-size: 55%;
-    font-size: 0px;
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-	-webkit-filter: drop-shadow(0px 2px 2px gray);
-	}
-		
-.factura {
-    font-weight: 100;
-    font-size: 12px;
-    color: #333;
-}
-.obras {
-    padding-top: 5px;
-    display: block;
-    overflow: hidden;
-    border-top: solid 1px gainsboro;
-    margin: 5px 0px;
-    font-size: 80%;
-    line-height: 18px;
-    width: 900px;
-
-}
-.obrasText{
-	white-space: normal;
-    padding-bottom: 4px;
-    width: 1000px;
-    font-size: 80%;
-}
-.placa {
-font-style: italic;
-	}
 .stack25, .stack50, .stack75, .stack100 {
 	display:block;
 	float:left;
